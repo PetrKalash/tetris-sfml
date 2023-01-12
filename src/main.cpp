@@ -19,8 +19,8 @@ int main(int *argv, char argc[])
 	// Текстура фигур тетриса
 	Texture texture_tiles, texture_background;
 	// Загрузка текстур
-	texture_tiles.loadFromFile("img\\tiles.png");
-	texture_background.loadFromFile("img\\background-tetris.jpg");
+	texture_tiles.loadFromFile("resources\\img\\tiles.png");
+	texture_background.loadFromFile("resources\\img\\background-tetris.jpg");
 	// Создание спрайтов из текстур
 	Sprite sprite_tiles(texture_tiles), sprite_background(texture_background);
 	//===============================================
@@ -28,7 +28,7 @@ int main(int *argv, char argc[])
 	//====================Звуки======================
 	// Загрузка и запуск фоновой музыки
 	Music music;
-	music.openFromFile("music\\tetris_music.ogg"); //загружаем файл
+	music.openFromFile("resources\\music\\tetris_music.ogg"); //загружаем файл
 	music.play();
 	//===============================================
 
@@ -42,7 +42,7 @@ int main(int *argv, char argc[])
 
 	//===================Шрифты======================
 	Font font;								// шрифт для очков
-	font.loadFromFile("fonts\\NunitoSans-Regular.ttf");
+	font.loadFromFile("resources\\fonts\\NunitoSans-Regular.ttf");
 	//===============================================
 
 	// Выполняем программу до тех пор, пока не выйдем из нее
