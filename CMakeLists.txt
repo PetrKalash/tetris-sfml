@@ -1,7 +1,8 @@
 ﻿#-Configuration-#
 cmake_minimum_required(VERSION 3.2)
 set(CMAKE_CXX_STANDARD 17)
-project(Tetris VERSION 1.0.0 LANGUAGES CXX)
+set(PROJECT_NAME Tetris)
+project(${PROJECT_NAME} VERSION 1.0.0 LANGUAGES CXX)
 
 #-Add SFML-#
 find_package(SFML 2.5 REQUIRED COMPONENTS graphics system window audio)
