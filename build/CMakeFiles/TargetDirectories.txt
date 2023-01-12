@@ -1,0 +1,3 @@
+C:/Users/HUAWEY_mb14/Documents/GitHub/tetris-sfml/build/CMakeFiles/Tetris.dir
+C:/Users/HUAWEY_mb14/Documents/GitHub/tetris-sfml/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/HUAWEY_mb14/Documents/GitHub/tetris-sfml/build/CMakeFiles/ZERO_CHECK.dir
