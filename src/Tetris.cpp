@@ -1,4 +1,4 @@
-﻿#include "Tetris.h"
+﻿#include "tetris.h"
 
 int32_t Tetris::m_total_points = 0;
 

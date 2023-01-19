@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-#include "Tetramino.h"
-#include "Tetris.h"
+#include "tetramino.h"
+#include "tetris.h"
 #include <array>
 
 using namespace sf;

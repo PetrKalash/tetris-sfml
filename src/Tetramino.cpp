@@ -1,4 +1,4 @@
-#include "Tetramino.h"
+#include "tetramino.h"
 #include <random>
 
 Tetramino::Tetramino() : m_cords{}, m_tiles{}, m_type{}, m_figures{}{}
