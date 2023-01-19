@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Tetramino.h"
+#include "tetramino.h"
 
 // Игра тетрис
 class Tetris
