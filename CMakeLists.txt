@@ -9,7 +9,7 @@ find_package(SFML 2.5 REQUIRED COMPONENTS graphics system window audio)
 find_package(Threads REQUIRED)
 set(SFML_LIBS sfml-system sfml-window sfml-graphics sfml-audio)
 
-#-Enabling files-#
+#-Enabling filesd-#
 include_directories(include)
 file(GLOB SOURCES src/*.cpp include/*.h)
 add_executable(${PROJECT_NAME} ${SOURCES})
